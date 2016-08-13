@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Weather Report</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="weatherIconWebString">http://openweathermap.org/img/w/</string>
+    <string name="pngExtension">.png</string>
+    <string name="degFahrExtension">°F</string>
+    <string name="pressureUnits">" hPa"</string>
+    <string name="mph">" mph"</string>
+    <string name="addNewCityPrompt">Add a new city</string>
+    <string name="errorOnCompleteListenerMsg">" must implement OnCompleteListener"</string>
+    <string name="updateBtnString">Update</string>
+    <string name="openWeatherBaseURL">http://api.openweathermap.org/data/2.5/</string>
+    <string name="ApiKey">46071bc4a33da4bce7d3965369973a8e</string>
+    <string name="imperialUnitsTag">imperial</string>
+    <string name="updatingString">Updating...</string>
+    <string name="aboutMeString">Nathan Majumder © 2016</string>
+    <string name="summaryFragTitle">Summary</string>
+    <string name="detailsFragTitle">Details</string>
+    <string name="unknownFragDetails">unknown</string>
+</resources>

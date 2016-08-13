@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:padding="1dp"
+    android:layout_margin="1dp"
+    android:background="@drawable/row_background"
+    android:clickable="true"
+    android:id="@+id/rowLayout">
+
+    <TextView
+        android:id="@+id/tvCityName"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:gravity="center_vertical|left"
+        android:textColor="#000000"
+        android:text="city name"/>
+    <ImageView
+        android:id="@+id/rowWeatherIcon"
+        android:layout_marginLeft="4dp"
+        android:gravity="center_vertical|right"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/rowCurrentTemp"
+        android:layout_marginRight="15dp"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|right"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:text="°F"/>
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_marginRight="5dp"
+        android:gravity="center_vertical|right"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/delete"/>
+
+</LinearLayout>

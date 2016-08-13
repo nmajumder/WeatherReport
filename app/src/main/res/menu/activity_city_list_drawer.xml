@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navAddCity"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Add City" />
+    <item
+        android:id="@+id/navClearCities"
+        android:icon="@drawable/delete"
+        android:title="Clear City List"/>
+    <item
+        android:id="@+id/navAbout"
+        android:icon="@drawable/info"
+        android:title="About"/>
+
+</menu>
